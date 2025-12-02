@@ -1,9 +1,5 @@
 from PetLabel import *
-from PySide6.QtWidgets import (QLabel,QSystemTrayIcon,QApplication,QMenu,QMessageBox,
-                               QSlider,QVBoxLayout, QHBoxLayout, QWidget,QListWidget)
-from PySide6.QtGui import QAction,Qt,QIcon,QPixmap,QTransform
-from PySide6.QtCore import QTimer,Signal,QFile,QProcess,QUrl,QDir
-from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
+
 
 if __name__ == "__main__":
     app = QApplication([])
